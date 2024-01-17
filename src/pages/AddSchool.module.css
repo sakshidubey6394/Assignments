@@ -1,0 +1,47 @@
+/* AddSchool.module.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .submitButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .fetchButton {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .schoolList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .schoolItem {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .schoolImage {
+    max-width: 100px;
+    height: auto;
+  }
+  
